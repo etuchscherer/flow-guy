@@ -1,6 +1,15 @@
-# Welcome to your Expo app 👋
+# StickerSmash 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an Expo/React Native mobile application featuring a decoupled, vendor-agnostic **Flow Orchestration Engine** with an integrated **A/B Experimentation Adapter Layer** and **Interactive Visualizer Workbench**.
+
+## 🧭 Flow Orchestration & A/B Testing Documentation
+
+- 🏛️ **[Architecture Guide](./docs/ARCHITECTURE.md)**: 4-layer decoupling, pure state machine design, telemetry pipeline, and subflow hierarchies.
+- 🚀 **[Setup & Integration Guide](./docs/SETUP_GUIDE.md)**: Step-by-step setup guide for integrating the engine into your own project, configuring Mock/Statsig adapters, and mounting in React Native.
+- 📖 **[API Reference](./docs/API_REFERENCE.md)**: Complete API documentation for `defineFlow`, step definitions (`screen`, `action`, `subflow`), React hooks, and the A/B testing adapter layer.
+- 🌐 **[Visualizer Workbench](./flows-viz/index.html)**: Interactive visual diff and variant matrix tool (`npm run flows:viz:open`).
+
+---
 
 ## Get started
 
